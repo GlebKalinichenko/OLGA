@@ -1,0 +1,35 @@
+<template format="4"
+		revision="1"
+		name="Use Case Template"
+		description="Creates a new MVP classes - Presenter, View and Contract between the two">
+
+	<category value="VIPER"/>
+
+	<parameter id="repositoryName"
+		name="Class repository Name"
+		type="string"
+		default="DefaultRepository"
+		help="The name of the repository class"/>
+
+	<parameter id="dataSourceName"
+		name="Class Data source Name"
+		type="string"
+		default="DefaultDataSource"
+		help="The name of the data source class"/>
+        
+    <parameter id="useCaseName"
+        name="Class Use case Name"
+        type="string"
+        default="DefaultUseCase"
+        help="The name of the use case class"/>
+        
+    <parameter id="useCaseReturnTypeEntityName"
+        name="Type of Use case return entity"
+        type="string"
+        default="DefaultUseCaseReturnTypeEntityNam"
+        help="The name of the type return by use case"/>
+
+	<globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

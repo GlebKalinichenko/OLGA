@@ -1,6 +1,6 @@
 <template format="4"
 		revision="1"
-		name="MVP Template Activity"
+		name="MVP Template"
 		description="Creates a new MVP classes - Presenter, View and Contract between the two">
 
 	<category value="VIPER"/>
